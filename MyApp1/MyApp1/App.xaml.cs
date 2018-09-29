@@ -1,8 +1,6 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
+using MyApp1.Pages;
 
-[assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace MyApp1
 {
     public partial class App : Application
@@ -11,7 +9,7 @@ namespace MyApp1
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new MainMenu();
         }
 
         protected override void OnStart()

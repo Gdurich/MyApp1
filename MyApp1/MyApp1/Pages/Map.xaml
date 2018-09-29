@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MyApp1.Pages.Map">
+    <ContentPage.Content>
+        <WebView Source="https://www.google.com/maps/@46.9684647,32.0143012,15z" />
+    </ContentPage.Content>
+</ContentPage>
